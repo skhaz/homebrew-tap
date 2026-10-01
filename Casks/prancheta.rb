@@ -1,6 +1,6 @@
 cask "prancheta" do
-  version "0.2.0"
-  sha256 "acca5f0071d882d58b04c4a80ffbf981a76e17ac531fde5a643755d8b8f7f1b0"
+  version "0.2.1"
+  sha256 "d67874c6a954da087e5a04f12e07f77fde6908fc6c880693c5263cdc34b05b5d"
 
   url "https://github.com/skhaz/prancheta/releases/download/v#{version}/Prancheta.zip"
   name "Prancheta"
