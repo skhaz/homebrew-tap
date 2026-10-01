@@ -7,12 +7,12 @@ cask "prancheta" do
   desc "Clipboard history in the menu bar"
   homepage "https://github.com/skhaz/prancheta"
 
-  depends_on macos: ">= :golden_gate"
+  depends_on macos: :golden_gate
 
   app "Prancheta.app"
 
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/Prancheta.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/Prancheta.app"]
   end
 
   uninstall quit: "org.delduca.Prancheta"
