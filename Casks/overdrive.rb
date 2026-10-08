@@ -7,7 +7,7 @@ cask "overdrive" do
   desc "Music player with Last.fm scrobbling"
   homepage "https://github.com/skhaz/overdrive"
 
-  depends_on macos: :golden_gate
+  depends_on macos: :tahoe
 
   app "Overdrive.app"
 
