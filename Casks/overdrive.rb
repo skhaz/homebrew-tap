@@ -17,5 +17,12 @@ cask "overdrive" do
 
   uninstall quit: "org.delduca.Overdrive"
 
-  zap trash: "~/Library/Preferences/org.delduca.Overdrive.plist"
+  zap trash: [
+    "~/Library/Application Support/Overdrive",
+    "~/Library/Caches/org.delduca.Overdrive",
+    "~/Library/HTTPStorages/org.delduca.Overdrive",
+    "~/Library/HTTPStorages/org.delduca.Overdrive.binarycookies",
+    "~/Library/Preferences/org.delduca.Overdrive.plist",
+    "~/Library/Saved Application State/org.delduca.Overdrive.savedState",
+  ]
 end
