@@ -1,6 +1,6 @@
 cask "overdrive" do
-  version "1.0.29"
-  sha256 "0ec873b41fc69f65ad891a17373c7915634e825b88cc1769ad6775c7e44718a4"
+  version "1.0.30"
+  sha256 "e5c23f8571085543346ec41fa943390ce0ae7f35d9c4e44906c65dfce40be6de"
 
   url "https://github.com/skhaz/overdrive/releases/download/v#{version}/Overdrive.zip"
   name "Overdrive"
